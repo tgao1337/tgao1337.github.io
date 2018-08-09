@@ -1,0 +1,472 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+header {
+  /* background-color:rgba(33, 33, 33, 0.9); */
+  color:#fafafa;
+  display:block;
+  font: 18px/1.3 Arial,sans-serif;
+  height:50px;
+  position:relative;
+  z-index:5;
+  margin-top: 30vh;
+  align-items: center;
+}
+
+body {
+  display: block;
+  margin: 0px;
+}
+
+h1{
+  /* margin-top: 300px; */
+  text-align: center;
+}
+header h1{
+  font-size: 4em;
+  margin: 0 auto;
+  padding: 10px 4vw;;
+  width: fit-content;
+  text-align: center;
+  /* background-color: blue; */
+}
+
+
+header h2{
+  color: #f6f6f6;
+  margin-top: 10vh;
+  margin-left: 5vw;
+  margin-right: 5vh;
+  text-align: center;
+
+  /* background-color: green; */
+}
+
+h2  {
+  font-size: 8vw;
+  margin-top: 10vh;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.4em;
+}
+.nametext {
+  margin: 40vh;
+  color: white;
+}
+
+.bod {
+  /* background-color: green; */
+  margin-top: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.upspa {
+  margin-top: 2vh;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  margin: 6vh 4vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+
+}
+
+li {
+  font-size: 5vw;
+  margin-left: 1.6vw;
+  list-style-type: none;
+}
+.smlist {
+  padding-left: 3vw;
+  /* margin-left: 1000px; */
+  font-size: 4vw;
+  margin-top: .4vh;
+  margin-bottom: .4vh;
+}
+
+.sclink {
+  color: #0645AD;
+}
+.sclink:hover {
+  text-decoration: underline;
+  color: #0B0080;
+}
+.left {
+  width: 90vw;
+  margin-top: 2vh;
+  /* align-content: center; */
+}
+.right {
+  width: 90vw;
+  margin-top: 2vh;
+  /* align-content: center; */
+}
+.left img {
+  width: 90vw;
+  /* align-content: center; */
+}
+.right img {
+  width: 90vw;
+  /* align-content: center; */
+}
+.footer {
+  /* background-color: #dadced; */
+  padding: 2.6vh;
+  margin-top: 4vh;
+
+}
+
+.box img {
+  width: 84vw;
+}
+.text-center {
+  text-align: center;
+}
+
+.gridcontainer {
+  width: 90vw;
+  display: grid;
+  grid-gap: 1vh;
+  margin-top: 4vh;
+  grid-template-columns: 1fr;
+  justify-content: center;
+
+   grid-template-areas: "a"
+                        "b"
+                        "c";
+}
+
+
+
+.a {
+  grid-area: a;
+  background-color: #C3FF7F;
+}
+
+.b {
+  grid-area: b;
+  background-color: #9988FF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.c {
+  grid-area: c;
+  background-color: #FE6D64;
+}
+
+.box {
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+
+}
+#bicon {
+  width: 3em;
+  margin-bottom: 1em;
+}
+.social {
+  padding-bottom: 2vh;
+}
+.so {
+  color: black;
+  font-size: 2em;
+}
+.so:hover {
+  filter: invert(75%);
+}
+.bt {
+  padding: 1em;
+  border-radius: .8em;
+  background-color: #2196F3;
+  border: 0;
+  color: white;
+  margin: 1em;
+
+}
+.bt:hover {
+  background-color: blue;
+
+}
+.bx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  from { transform: translate3d(0, 0, 0);     }
+  to   { transform: translate3d(0, 8px, 0); }
+}
+
+@media screen and (min-width: 28.75em) {
+  .section {
+    display: flex;
+    flex-direction: row;
+    margin: 6vh 4vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6vw;
+
+  }
+  li {
+    font-size: 2.2vw;
+  }
+  .smlist {
+    font-size: 1.6vw;
+    margin-left: 200vw;
+    margin-top: .4vh;
+    margin-bottom: .4vh;
+  }
+  .left {
+    width: 45vw;
+  }
+  .right {
+    width: 45vw;
+  }
+  img {
+    /* margin-left: .5vw; */
+    margin-top: 1vh;
+
+  }
+  .b img {
+    margin: 1vh;
+  }
+  .left img {
+
+    width: 42vw;
+
+  }
+  .right img {
+    width: 42vw;
+
+  }
+  h1{
+    /* margin-top: 300px; */
+    text-align: center;
+  }
+  header h1{
+    font-size: 4em;
+    margin: 0 auto;
+    padding: 10px 4vw;;
+    width: fit-content;
+    text-align: center;
+    /* background-color: blue; */
+  }
+
+
+  header h2{
+    color: #f6f6f6;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vh;
+    text-align: center;
+
+    /* background-color: green; */
+  }
+
+  h2  {
+    font-size: 4vw;
+    margin-top: 10vh;
+  }
+  h3 {
+    font-size: 2.6em;
+  }
+  h4 {
+    font-size: 1em;
+  }
+  .smlist {
+    font-size: 1.6vw;
+    margin-left: 2vw;
+    margin-top: .8vh;
+  }
+  .gridcontainer {
+    width: 95vw;
+    display: grid;
+    grid-gap: 1vh;
+  margin-top: 4vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 2vw;
+    grid-template-areas: "a b"
+                         "a c";
+  }
+
+  .box {
+    padding: 2.6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 46vw;
+  }
+  .box img {
+
+    width: 38vw;
+    margin-top: 1.2vh;
+  }
+  .bx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  }
+  .tal {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .tal img{
+    width: 30vw;
+    margin-left: 5vw;
+  }
+
+}
+
+
+
+/* @media screen and (min-width: 40.5em) {
+  .left {
+
+  }
+  .right {
+
+  }
+  .left img {
+
+  }
+  .right img {
+
+  }
+} */
+
+
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(../img/stars.png) repeat top center;
+  z-index:0;
+  background-attachment:  fixed;
+}
+
+.twinkling{
+  background:transparent url(../img/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+  background-attachment:  fixed;
+}
+
+.clouds{
+  background:transparent url(../img/longcloud.png) repeat top center;
+  z-index:3;
+
+  -moz-animation:move-clouds-back 300s linear infinite;
+  -ms-animation:move-clouds-back 300s linear infinite;
+  -o-animation:move-clouds-back 300s linear infinite;
+  -webkit-animation:move-clouds-back 300s linear infinite;
+  animation:move-clouds-back 300s linear infinite;
+  background-attachment:  fixed;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: .65vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: .4vw;
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
