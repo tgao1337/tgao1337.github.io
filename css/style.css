@@ -148,7 +148,8 @@ li {
 
    grid-template-areas: "a"
                         "b"
-                        "c";
+                        "c"
+                        "d";
 }
 
 
@@ -171,6 +172,36 @@ li {
 .c {
   grid-area: c;
   background-color: #FE6D64;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #f48fb1
+  }
+
+  30% {
+    background-color: #ba68c8
+  }
+
+  60% {
+    background-color: #81d4fa
+  }
+
+  90% {
+    background-color: #1de9b6
+  }
+
+  100% {
+    background-color: #b0bec5
+  }
+}
+
+.d {
+  grid-area: d;
+  -webkit-animation: bgcolor 30s infinite;
+  animation: bgcolor 15s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 .box {
@@ -218,6 +249,32 @@ li {
   animation: bounce 0.5s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
+}
+
+.tbutton {
+  border: 2px solid;
+  border-color: #cc33ff;
+  padding: .6em 1em;
+  border-radius: .4em;
+  background-color: #cc33ff;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+}
+
+.tbutton:hover {
+  background-color: #fff;
+  cursor: pointer;
+  color: #cc33ff;
+}
+
+.tbutton:active {
+  background-color: #d966ff;
+  color: white;
 }
 
 @keyframes bounce {
@@ -317,7 +374,8 @@ li {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 2vw;
     grid-template-areas: "a b"
-                         "a c";
+                         "a c"
+                         "a d";
   }
 
   .box {
