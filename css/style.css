@@ -204,6 +204,11 @@ li {
   animation-direction: alternate;
 }
 
+.e {
+  grid-area: d;
+  background-color: green;
+}
+
 .box {
   padding: 3vh;
   display: flex;
