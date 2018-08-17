@@ -499,6 +499,7 @@ li {
   background-attachment:  fixed;
 }
 
+/* find some way to make these clouds faster to load or put preloader */
 .clouds{
   background:transparent url(../img/longcloud.png) repeat top center;
   z-index:3;
