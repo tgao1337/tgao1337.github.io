@@ -500,6 +500,7 @@ li {
 }
 
 /* find some way to make these clouds faster to load or put preloader */
+/* maybe i should remove clouds and use css to create them? I will look into it */
 .clouds{
   background:transparent url(../img/longcloud.png) repeat top center;
   z-index:3;
