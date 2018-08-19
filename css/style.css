@@ -501,7 +501,7 @@ li {
 
 /* find some way to make these clouds faster to load or put preloader */
 /* maybe i should remove clouds and use css to create them? I will look into it */
-.clouds{
+/* .clouds{
   background:transparent url(../img/longcloud.png) repeat top center;
   z-index:3;
 
@@ -511,7 +511,7 @@ li {
   -webkit-animation:move-clouds-back 300s linear infinite;
   animation:move-clouds-back 300s linear infinite;
   background-attachment:  fixed;
-}
+} */
 
 
 /* width */
