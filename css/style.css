@@ -233,6 +233,13 @@ li {
 .so:hover {
   filter: invert(75%);
 }
+.sot {
+  color: white;
+  font-size: 2.5em;
+}
+.sot:hover {
+  filter: invert(75%);
+}
 .bt {
   padding: 1em;
   border-radius: .8em;
