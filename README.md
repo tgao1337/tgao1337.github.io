@@ -7,3 +7,7 @@ There is not much to read. This is simply a git version of my personal website w
 ### Burger Clicker
 ### CAD
 ### TopOpt
+
+
+Todo: add hyperloops, nlp. Use tabs from expos to viwe projects?
+Also look into react
