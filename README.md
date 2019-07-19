@@ -42,4 +42,6 @@ Sites I like:
   - also add email in social?
   - timeline with animates (maybe use aos but look into vulnerabilities)
   
-
+ideas:
+- have drawers for each bubble but have a learn more click thing? and it opens a drawer for the whole page, not just the header?
+  - might be too much and useless in the end
