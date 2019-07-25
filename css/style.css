@@ -373,7 +373,7 @@ li {
     margin-top: 10vh;
   }
   h3 {
-    font-size: 2.6em;
+    font-size: 3.6em;
   }
   h4 {
     font-size: 1em;
@@ -435,18 +435,48 @@ li {
     margin-right: auto;
   }
 
+  .fxjacket {
+    align-self: center;
+    padding-left: auto;
+    padding-right: auto;
+    width: 70%;
+    margin: 2em;
+    height: 500px;
+    background-color: purple;
+  }
+
   .fx-container {
     display: flex;
     flex-direction: row;
     width: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    background-color: green
   }
 
   .fx-item {
-    width: auto;
+    display: flex;
+    width: 23%;
+    justify-content: space-around;
+    background-color: red;
   }
 
   .fx-item img {
-    width: inherit;
+    width: 90%;
+  }
+
+  .nyu {
+
+  }
+
+  .sma {
+
+  }
+
+  .ms {
+    
   }
 
 }
