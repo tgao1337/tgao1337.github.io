@@ -63,7 +63,7 @@ h4 {
 
 .bod {
   /* background-color: green; */
-  margin-top: 70vh;
+  margin-top: 72vh;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -73,6 +73,11 @@ h4 {
 .upspa {
   margin-top: 2vh;
 }
+
+.circle {
+  border-radius: 50%;
+}
+
 .section {
   display: flex;
   flex-direction: row;
@@ -421,6 +426,27 @@ li {
   .tal img{
     width: 30vw;
     margin-left: 5vw;
+  }
+
+  #tg {
+    background-color: blue;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fx-container {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+  }
+
+  .fx-item {
+    width: auto;
+  }
+
+  .fx-item img {
+    width: inherit;
   }
 
 }
