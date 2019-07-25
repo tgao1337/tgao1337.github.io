@@ -494,7 +494,7 @@ li {
   	font-size: 12px;
   	border-top: 1px solid rgba(255,255,255,0.5);
   	opacity: 0;
-  	transition: all 1s ease-in-out 0.4s;
+  	transition: all 0.4s ease-in-out 0.4s;
   }
 
   .testover:hover {
