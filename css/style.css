@@ -435,41 +435,16 @@ li {
     margin-right: auto;
   }
 
-  .fxjacket {
-    align-self: center;
-    padding-left: auto;
-    padding-right: auto;
-    width: 70%;
-    margin: 2em;
-    height: 500px;
-    background-color: purple;
+  p {
+    font-size: 26px;
   }
 
-  .fx-container {
-    display: flex;
-    flex-direction: row;
-    width: inherit;
-    flex-wrap: wrap;
+  .titlebox {
     justify-content: center;
     align-items: center;
     vertical-align: center;
-    background-color: green
+    text-align: center;
   }
-
-  .fx-item {
-    display: flex;
-    width: 23%;
-    justify-content: space-around;
-    background-color: red;
-    position: relative;
-  }
-
-
-
-  .fx-item img {
-    width: 90%;
-  }
-
 
   .textover {
     width: 100%;
@@ -610,7 +585,7 @@ li {
 
   .ch-info {
   	position: absolute;
-    background: rgba(105,97,255, 0.8);
+    background: rgba(105,97,255, 0.9);
   	width: inherit;
   	height: inherit;
   	border-radius: 50%;
@@ -639,11 +614,12 @@ li {
   	padding: 10px 5px;
   	font-style: italic;
   	margin: 50px 30px;
-  	font-size: 20px;
+  	font-size: 24px;
   	border-top: 1px solid rgba(255,255,255,0.5);
   	opacity: 0;
   	transition: all 1s ease-in-out 0.4s;
   }
+
 
   .ch-info p a {
   	display: block;

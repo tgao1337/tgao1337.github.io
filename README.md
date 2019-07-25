@@ -42,6 +42,7 @@ Sites I like:
   - also add email in social?
   - timeline with animates (maybe use aos but look into vulnerabilities)
 - https://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/
+- https://www.sitepoint.com/recreating-google-images-search-layout-css/
 
 ideas:
 - have drawers for each bubble but have a learn more click thing? and it opens a drawer for the whole page, not just the header?
