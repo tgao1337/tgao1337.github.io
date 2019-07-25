@@ -9,15 +9,15 @@ There is not much to read. This is simply a git version of my personal website w
 ### TopOpt
 
 
-Todo: 
+Todo:
 add hyperloops, nlp. ~~Use tabs from expos to viwe projects?~~
 Also look into react
 
-Google analytics found: 
+Google analytics found:
 - Clickable elements too close together
 - Content wider than screen
 
-but cannot figure out where the problem is. 
+but cannot figure out where the problem is.
 
 Todo:
 - remove aos
@@ -41,7 +41,8 @@ Sites I like:
   - social hover
   - also add email in social?
   - timeline with animates (maybe use aos but look into vulnerabilities)
-  
+- https://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/
+
 ideas:
 - have drawers for each bubble but have a learn more click thing? and it opens a drawer for the whole page, not just the header?
   - might be too much and useless in the end
