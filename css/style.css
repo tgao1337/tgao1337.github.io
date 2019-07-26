@@ -435,6 +435,35 @@ li {
     margin-right: auto;
   }
 
+  .leftname {
+    width: 45%;
+  }
+
+  .leftname img {
+    width: 90%;
+  }
+
+  .rightname {
+    width: 55%;
+  }
+
+  /* Bounce In */
+  .hvr-bounce-in {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+  .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
   p {
     font-size: 26px;
   }
