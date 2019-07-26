@@ -1,0 +1,616 @@
+<!--Template code created for the MSOE Center for BioMolecular Modeling - Copyright.
+
+ThiS CODE WAs made by TommyG and JacobK
+for SRT 3 for McDonough
+
+
+Does anyone see this?
+
+
+░░▒░░█░ 
+░░▒░█ 
+░░░█ 
+░░█░░░░███████ 
+░██░░░██▓▓███▓██▒ 
+██░░░█▓▓▓▓▓▓▓█▓████ 		La elefant gives free hugs
+██░░██▓▓▓(◐)▓█▓█▓█ 
+███▓▓▓█▓▓▓▓▓█▓█▓▓▓▓█ 
+▀██▓▓█░██▓▓▓▓██▓▓▓▓▓█ 
+░▀██▀░░█▓▓▓▓▓▓▓▓▓▓▓▓▓█ 
+░░░░▒░░░█▓▓▓▓▓█▓▓▓▓▓▓█ 
+░░░░▒░░░█▓▓▓▓█▓█▓▓▓▓▓█ 
+░▒░░▒░░░█▓▓▓█▓▓▓█▓▓▓▓█ 
+░▒░░▒░░░█▓▓▓█░░░█▓▓▓█ 
+░▒░░▒░░██▓██░░░██▓▓██
+
+
+ --> 
+
+<html>
+
+<head>
+
+<title>Ricin: Umbrella darts and curing cancer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/JS/jquery.min.js"></script>
+<script type="text/javascript" src="http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/jmol/Jmol.js"></script>
+<script type="text/javascript" src="http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/jmol/JSmol.min.js"></script>
+<script type="text/javascript" src="http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/JS/exportedScript_verticalHeaderColumn.js"></script>
+
+<style type="text/css"> 
+#headerMain{ 
+ background-color:#00ff99; 
+color:#000000; 
+width:100%;
+height:100px;
+box-shadow:inset 0 100px #00ff99; 
+ }
+ 
+ #contentsTitle{ 
+ background-color:#b7ebcc; 
+color:#000000; 
+ }
+ 
+ #contributorsTitle{ 
+ background-color:#b7ebcc; 
+color:#000000; 
+ }
+ 
+ #tutorialTitle{ 
+ background-color:#b7ebcc; 
+color:#000000; 
+ }
+ 
+ #jmolTitle{ 
+ background-color:#b7ebcc; 
+color:#000000; 
+ }
+ 
+ h1{ 
+ background-color:#00ff99; 
+color:#000000; 
+ }
+ 
+ h2{ 
+ border-bottom:2px solid #b7ebcc; 
+ } 
+
+ 
+ .image{ 
+  border:1px solid #b7ebcc; 
+ } 
+
+ 
+ .video{ 
+ border:1px solid #b7ebcc; 
+ } 
+
+</style> 
+
+<link rel="stylesheet" type="text/css" href="http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/CSS/exportedStyle.css" />
+
+</head>
+
+
+<body>
+
+
+<div id="bodyBackground">
+</div>
+
+
+<div id="headerMain">
+<div id="headerInner">
+
+<div id="headerCBMLogo">
+<img src="http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/images/contentImages/cbmTransparent.png" alt="MSOE Center for BioMolecular Modeling" />
+</div>
+
+<div id="headerGuestLogo">
+<img src="https://66.media.tumblr.com/e305094b8ce865c25a581060eabe88a2/tumblr_ofvztbjImy1qgbi8io1_250.png" alt="Error: organization logo URL incorrect" />
+</div>
+
+<div id="headerTitle">
+Ricin: Umbrella darts and curing cancer
+</div>
+
+</div>
+</div>
+
+<div id="contentMain">
+
+<div id="leftSidePannel">
+
+<div id="contents">
+<div id="contentsTitle" class="title">
+ Contents 
+</div>
+<div id="contentsContent">
+
+ <a href="#anchor0" class="contentTitleLink">Purpose</a><br /> 
+
+ <a href="#anchor2" class="contentTitleLink">Background Information</a><br /> 
+
+ <a href="#anchor3" class="contentSubtitleLink">What is Ricin?</a><br /> 
+
+ <a href="#anchor7" class="contentSubtitleLink">Death by Umbrella Dart</a><br /> 
+
+ <a href="#anchor10" class="contentSubtitleLink">Ricin to Cure Cancer?</a><br /> 
+
+ <a href="#anchor13" class="contentSubtitleLink">Strucutre</a><br /> 
+
+ <a href="#anchor17" class="contentSubtitleLink">Gene Sequence</a><br /> 
+
+ <a href="#anchor26" class="contentTitleLink">Printing Proposal</a><br /> 
+
+ <a href="#anchor31" class="contentTitleLink">Printing Instructions</a><br /> 
+
+ <a href="#anchor45" class="contentTitleLink">References</a><br /> 
+
+</div>
+</div>
+
+<div id="contributors">
+<div id="contributorsTitle" class="title">
+ Contributors 
+ </div><div id="contributorsContent">Jacob Kurth and Tommy Gao
+
+<div id="contributorSpacer"></div>
+
+<p style="text-align:center;">This Jmol tutorial was created using the Jmol Tutorial Creator from the MSOE Center for BioMolecular Modeling.</p> 
+ <div id="creatorVersion">version 1.0</div> 
+</div>
+</div>
+
+</div>
+
+<div id="tutorial">
+<div id="tutorialTitle" class="title">
+ Tutorial 
+</div>
+<div id="tutorialContent">
+
+
+ <a name="anchor0"></a> 
+ <h1>Purpose</h1> 
+
+
+ <p>The purpose of this investigation is to visualize the structure of the ricin A chain in order to better understand the mechanism with which ricin affects eukaryotic cells. Additionally, this tutorial will demonstrate how to modify a jmol file showcasing the ricin A chain so it is ready to be 3-D printed.</p> 
+
+
+ <a name="anchor2"></a> 
+ <h1>Background Information</h1> 
+
+
+ <a name="anchor3"></a> 
+ <h2>What is Ricin?</h2> 
+
+
+ <p>Ricin is a type II ribosome inhibiting protein found in the seeds of the castor-oil plant (European Food Safety Authority, 2008). It is composed of 2 chains and attaches to the RNA in a eukaryotic cell to stop protein synthesis. This results in the death of cells and by result, the entire organism. The two chains are the A chain and the B chain. The B chain bonds to the cell membrane and injects the A chain, which is what bonds to the RNA to kill the cells (Goodsell, 2013). RNA was discovered in 1888 by the German scientist Peter Hermann Stillmark (Rogers 2013). Its ability to kill very quickly with a low dose makes it a very powerful biological weapon. Its most famous use occurred in 1978 London with the murder of Georgi Markov. More recently however, Ricin has been researched for its potential to fight cancer (Goodsell 2013). </p> 
+
+
+ <img class="image" src="https://cdn.rcsb.org/pdb101/motm/images/161-Ricin_2aai.jpg" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 1. Ricin structure modeled by PDB.</div> 
+
+
+ <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/z6PbHVnX_00?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+ <div class="videoCaption">Figure 2. What is Ricin?</div> 
+
+
+ <a name="anchor7"></a> 
+ <h2>Death by Umbrella Dart</h2> 
+
+
+ <p>Ricin is a very potent toxin that can kill by inhalation, injection, and ingestion. This makes it one of the most dangerous substances in the world, and a commonly used weapon in assassination attempts (Rogers, 2013). As mentioned previously, ricin was used to kill a man named Georgi Markov in 1978. He was a Bulgarian writer who was being targeted by the Bulgarian secret police, with the assistance of the Soviet KGB. On the third assassination attempt he was stabbed with a dart from an umbrella, which injected a capsule of Ricin that was only 1.7 mm in diameter into his leg. He was admitted to a hospital that night after spending the day with severe leg pain, a high fever, abdominal pain, vomiting, and diarrhea. He eventually went into shock and died 4 days after he was initially injected (Stergioulas, 2008). The toxin's lethality allowed for the assassin to quickly inject the pellet and leave without causing a big scene. Ricin has also been placed in letters and sent to US presidents, but the letters have been intercepted and haven't done any harm (Seeker, 2013). </p> 
+
+
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/m5IMuNKeSn8?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div> 
+ <div class="videoCaption">Figure 3. Ricin Letters: What's So Dangerous?</div> 
+
+
+ <a name="anchor10"></a> 
+ <h2>Ricin to Cure Cancer?</h2> 
+
+
+ <p>Recently Ricin has been studied for good rather than the nefarious purposes of the past. A new 'immunotoxin' made with an antibody combined with ricin A chain has been designed to target cancer cells and kill them without affecting healthy cells (Goodsell 2013).</p> 
+
+
+ <img class="image" src="https://cdn.rcsb.org/pdb101/motm/images/161-Ricin_immunotoxin.jpg" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 4. Immunotoxin is created from the ricin A chain and antibodies that seek cancer cells and destroys them.</div> 
+
+
+ <a name="anchor13"></a> 
+ <h2>Strucutre</h2> 
+
+
+ <p>Ricin itself has 2 chains, A and B. Ricin A chain consists of several alpha helices and beta pleated sheets (Goodsell 2013). The Tyrosine and Arginine are found in an indented section of the protein that allows it to surround the sarcin/ricin loop to remove an adenine from the loop and render the ribosome useless (Lord et al., 1994). It can then move on to another ribosome and repeat the process at a rate of 1500 ribosomes per minute until no ribosomes are left. The single bonding site between the A chain and the B chain at Cys 259 allows for the A chain and B chain to break apart relatively easily when the B chain bonds with the cell membrane (Goodsell, 2013).</p> 
+
+ <span class="jmolButton" onclick="button252()">Ricin Cartoon Model</span><br /> 
+ <script type="text/javascript"> 
+ function button252(){ 
+ var tempJmolString = "exit; zap; set echo 50% 50%; set echo CENTER; font echo 20 serif bolditalic; color echo red; echo Loading Molecule|Please Wait; refresh; load http://www.pdb.org/pdb/files/2aai.pdb; echo; background black;cartoon only; color structure; spin on;"; 
+ Jmol.script(myJmol, tempJmolString); 
+ } 
+ </script> 
+
+  <span class="jmolButton" onclick="button273()">Ricin Wireframe Model</span><br /> 
+ <script type="text/javascript"> 
+ function button273(){ 
+ var tempJmolString = "exit; zap; set echo 50% 50%; set echo CENTER; font echo 20 serif bolditalic; color echo red; echo Loading Molecule|Please Wait; refresh; load http://www.pdb.org/pdb/files/2aai.pdb; echo; background black;wireframe only; color structure; spin on;"; 
+ Jmol.script(myJmol, tempJmolString); 
+ } 
+ </script> 
+ 
+ <img class="image" src="https://68.media.tumblr.com/0a01fa7a64533d950e6b055a53a1ad6f/tumblr_onan9cnZmx1w8e7t7o1_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 5. The cartoon structure is shown above of ricin. Alpha helices and a beta pleated sheet can be seen.</div> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/3de5c1cc4cbbbd4578f05ba85362c6ba/tumblr_onan9cnZmx1w8e7t7o5_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 6. The wireframe structure of ricin is shown above. The green amino acid is where the A chain bonds to the B chain.</div> 
+
+
+ <a name="anchor17"></a> 
+ <h2>Gene Sequence</h2> 
+
+
+ <p>The amino acid sequence of ricin A chain from The National Center for Biotechnology Information is shown in Figure 7 below. The ricin A chain is then put through blast and it is nearly identical to other varients of ricin (Figure 8).</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/9bbc65b2e63f1e3d5b4e47d943e4218e/tumblr_onan9cnZmx1w8e7t7o4_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 7. The ricin (2aai) A chain amino acid sequence is obtained from NCBI.</div> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/3b1e4c8b0dfadc8c295b8cff29687c31/tumblr_onan9cnZmx1w8e7t7o2_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 8. The blast results for Chain A, Rrna N-glycosylase Rta from the NCBI BLAST.</div> 
+
+
+ <p>The chain sequence of ricin A chain can be compared to many other ribosome inactivating proteins (RIPs). Although RIPs are very different from ricin in gene sequence, there are some important sites that scientists believe are essential for ribosome inactivation. Although not much is known about how it works, these highlighted amino acids are believed to be important because all the RIPs have the same effect with these same amino acids in their same positions (Tumer & Li, 2012). </p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/e5406f3ecedf394642bb85e84bf728f5/tumblr_onan9cnZmx1w8e7t7o3_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 9. The results of the conserved domains between ricin A chain (top line) and the other ribosome inactivating proteins in the RIPs superfamily show the close similarity of the amino acids necessary for cleavage of the sarcin ricin loop on proteins.</div> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/d4dc62a0084c9b230d8f14e6bc7743b0/tumblr_onan9cnZmx1w8e7t7o6_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 10. The amino acids of ricin compared to many RIPs. There are a few important amino acids that are necessary for ribosome inactivation.</div> 
+
+
+ <p>The sarcin ricin loop (shown below in Figure DFA) is shown that ricin and other ribosome inactivating protein hhydrolytically cleaves an adenine from the 28S rRNA on the ribosomes (Tumer & Li, 2012). This will cause the ribosome to stop producing proteins, eventually leading to cell failiure.</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/ae16a8a9136cba12b166710c9f0831e1/tumblr_onaob8UsYz1w8e7t7o1_400.jpg" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 11. The hydrolytic of the 28S rRNA is shown above. This disables ribosomes from producing proteins.</div> 
+
+
+ <a name="anchor26"></a> 
+ <h1>Printing Proposal</h1> 
+
+
+ <span class="jmolButton" onclick="button27()">Ricin A Chain 3D Printing Model</span><br /> 
+ <script type="text/javascript"> 
+ function button27(){ 
+ var tempJmolString = "exit; zap; set echo 50% 50%; set echo CENTER; font echo 20 serif bolditalic; color echo red; echo Loading Molecule|Please Wait; refresh; load http://www.pdb.org/pdb/files/2aai.pdb; echo; background black;;backbone only;;backbone 1.0;;color chain;;restrict chain=a;;calculate strut;;select atomno=1813 or atomno=1689;;connect strut;;select atomno=1721 or atomno=1784;;connect strut delete;;select atomno=793 or atomno=744;;connect strut delete;;select atomno=1398 or atomno=1451;;connect strut delete;;select atomno=135 or atomno=1489;;connect strut delete;;select atomno=1932 or atomno=1779;;connect strut delete;;select atomno=1204 or atomno=1249;;connect strut delete;;select atomno=1050 or atomno=1007;;connect strut delete;;select atomno=988 or atomno=941;;connect strut delete;;select atomno=1726 or atomno=1940;;connect strut delete;;select atomno=1192 or atomno=535;;connect strut delete;;select atomno=350 or atomno=260;;connect strut delete;;select atomno=543 or atomno=497;;connect strut delete;;select atomno=1689 or atomno=1813;;connect strut delete;;select all;;struts 0.75;;select 259;;color green;;select 123;;color blue;;select 80;;color blue;;select 180;;color red;"; 
+ Jmol.script(myJmol, tempJmolString); 
+ } 
+ </script> 
+
+
+ <p>The 3-D model showcases the structure of the ricin A chain to illustrate how the Ricin A chain could possibly function. The red area shows the <span style='color:#e24848'>ARG 180</span> where the ricin A chain cleaves off the adenine from 28S rRNA in  a hydrolytic fashion. The blue shows the <span style='color:#5754db'>TYR 80</span>  and <span style='color:#5754db'>TYR 123</span> which help attach the ricin A chain onto the ribosome. The green shows the <span style='color:#43c34f'>CYS 259</span> which is the place where the ricin A chain connects to the ricin B chain. Figure 12 is a physical model that was built based on the 3-D model and gives a sense of what the printed 3-D model will be like.</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/c620b79eb4591975633c0c3dc8fda1a2/tumblr_on52j5V5G81w8e7t7o1_1280.jpg" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 12. This is our physical model created before the molecule was printed.</div> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/fad594c4f1fcebaa6f49e90e3b857f95/tumblr_onaep7DIKe1w8e7t7o1_1280.jpg" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 13. The 3D printed ricin A chain model compared to the self created model, side by side.</div> 
+
+
+ <a name="anchor31"></a> 
+ <h1>Printing Instructions</h1> 
+
+
+ <p>To build the 3-D model, two chains will need to be printed and then glued together. Ricin is a large molecule to print so only the A chain will be printed here. To get a jmol file of the A chain ready for printing, complete the following steps:<br />1. Click on File -> Console which should open a window where commands can be typed.<br />2. 2. Type ''<span style='color:#e24848'>load=2aai</span>'' into the console window and press enter, which will open the ricin file into jmol, displaying only the backbone.<br />3. Enter ''<span style='color:#e24848'>backbone only</span>'' which will only display the backbone without side chains on it.<br />4. Enter ''<span style='color:#e24848'>backbone 1.0</span>'' which will set the backbone to a reasonable size.<br />5. Enter ''<span style='color:#e24848'>restrict chain=a</span>'' which will limit the model to only include the a chain.</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/01a8b931af23bfd4480230ffe15eae46/tumblr_onafddSu4Z1w8e7t7o1_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 14. This is how the application should look after the previous steps.</div> 
+
+
+ <p>6. Enter ''<span style='color:#e24848'>color structure</span>'' which will show the alpha helices and the beta pleated sheet.<br />7. Enter ''<span style='color:#e24848'>calculate strut</span>'' to automatically create struts.</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/c51872974aee6e946534807187064e84/tumblr_onafiisgEu1w8e7t7o1_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 15. This is how the application should look after adding colors and preset struts.</div> 
+
+
+ <p>There are a lot of struts that do not need to be there so we will add one strut then remove a lot more.<br />8. Enter the following:</p> 
+
+
+ <p>''<span style='color:#e24848'>select atomno=1813 or atomno=1689</span>''<br />''<span style='color:#e24848'>connect strut</span>''<br />''<span style='color:#e24848'>select atomno=1721 or atomno=1784</span>''<br />''<span style='color:#e24848'>connect strut delete</span>''<br />''<span style='color:#e24848'>select atomno=793 or atomno=744</span>''<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1398 or atomno=1451</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=135 or atomno=1489</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1932 or atomno=1779</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1204 or atomno=1249</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1050 or atomno=1007</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=988 or atomno=941</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1726 or atomno=1940</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1192 or atomno=535</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=350 or atomno=260</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=543 or atomno=497</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+<br />''<span style='color:#e24848'>select atomno=1689 or atomno=1813</span>''
+<br />''<span style='color:#e24848'>connect strut delete</span>''
+</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/4f5a2e95106a4c6592230501bd7ec161/tumblr_onag04O2xy1w8e7t7o1_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 16. This is how the application should look after adding additional struts.</div> 
+
+
+ <p>9. Enter ''<span style='color:#e24848'>select all</span>'' to select all the struts.<br />10. Enter ''<span style='color:#e24848'>struts 0.75</span>'' to make the struts larger for easier printing. Originally when creating the model, the struts were thinner but was changed to 0.75 because the smaller struts did not show up on MeshMixer. <br />11. Enter ''<span style='color:#e24848'>select 259</span>'' to make select the CYS 259.<br />12. Enter ''<span style='color:#e24848'>color green</span>'' to change it to green so it is marked for identification.<br />13. Enter ''<span style='color:#e24848'>select 123</span>'' to make select the TYR 123.<br />14. Enter ''<span style='color:#e24848'>color blue</span>''  to change it to blue so it is marked for identification.
+15. Enter ''<span style='color:#e24848'>select 80</span>'' to make select the TYR 80.
+16. Enter ''<span style='color:#e24848'>color blue</span>'' to change it to blue so it is marked for identification.
+17. Enter ''select 180'' to make select the ARG 180.
+18. Enter ''<span style='color:#e24848'>color red</span>'' to change it to red so it is marked for identification.</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/b90d1f83c4407db06bf75ad81f736a21/tumblr_onagtwsEQO1w8e7t7o1_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 17. This is how the model should look after all the commands have been entered correctly.</div> 
+
+
+ <p>15. The model now needs to be exported as a .stl file. Right click on the model and click on File -> Export -> Export STL 3D Model which should open up a window to save the .stl file in a chosen location on the computer.<br /></p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/39f4a0aeb3496cc94e98cd9935e67fbd/tumblr_onagxjiaB71w8e7t7o1_1280.png" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 18. This shows how to access the option to export the file as a .stl.</div> 
+
+
+ <p>16. The .stl file must then be modified in Meshmixer. In Meshmixer, click Import and select the .stl file to open it in the program.<br />17. Click Edit -> Make Solid -> Accept. Make Solid will fill the internal space in the mesh to make it printable instead of just the  mesh shell.<br />18. Click File -> Export and then save the file in the STL ASCII Format. This final file is ready to be sent to the 3D printer.</p> 
+
+
+ <img class="image" src="https://68.media.tumblr.com/3b74ac869aae0f919c21ef45b076e6fb/tumblr_onaep7DIKe1w8e7t7o4_1280.jpg" alt="Error:image not available. Check image URL to correct the problem." /> 
+ <div class="imageCaption">Figure 19. The final printed and painted model of the ricin A chain.</div> 
+
+
+ <a name="anchor45"></a> 
+ <h1>References</h1> 
+
+
+  <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;">Bertilsson, Daniel. (2014). <i>What is Ricin?</i> Retrieved from https://www.youtube.com/watch?v=z6PbHVnX_00<br />
+  </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Endo, Y., & Tsurugi, K. (1987). RNA N-Glycosidase Activity of Ricin A-chain. <i>The Journal of Biological Chemistry</i>, 262(17), 8128-8130. Retrieved from http://www.jbc.org/content/262/17/8128.full.pdf<br />
+  </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> European Food Safety Authority. (2008). <i>Ricin (from Ricinus communis) as undesirable substances in animal feed.</i> Retrieved from http://onlinelibrary.wiley.com/doi/10.2903/j.efsa.2008.726/epdf<br />
+  </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Faculdade de Farmacia Universidade do Porto. (2009). <i>RICINA </i>[Digital image]. Retrieved from http://www.nawebti.net/ricina/index2.php?pag=bibliografia<br />
+  </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Goodsell D.S. (2013). <i>Ricin.</i> Retrieved from https://pdb101.rcsb.org/motm/161<br />
+  </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Lord, J.M., Roberts, L.M., & Robertus, J.D. (1994). Ricin: Structure, mode of action, and some current applications. <i>The FASEB Journal</i>. Retrieved from https://www.researchgate.net/profile/Jon_Robertus/publication/15078743_Ricin_Structure_mode_of_action_and_some_current_applications/links/00b7d516812fe61361000000.pdf<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Protein Data Bank. (1993). [Ricin in .pdb]. <i>2AAI Crystallographic refinement of ricin to 2.5 Angstroms. </i>Retrieved from http://www.rcsb.org/pdb/explore.do?structureId=2AAI<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Rogers, K. (2013). Ricin. In <i>Encyclopedia Britannica. </i>Retrieved from https://www.britannica.com/science/ricin<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Seeker. (2013). <i>Ricin Letters: What's So Dangerous?</i> Retrieved from https://www.youtube.com/watch?v=m5IMuNKeSn8<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> tergioulas, A. (2008). Ricin and the Assassination of Georgi Markov. <i>Pakistan Journal of Biological Sciences</i>, 11(19), 2370-2371. Retrieved from http://www.scialert.net/qredirect.php?doi=pjbs.2008.2370.2371&linkid=pdf<br />
+  </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;">The Scripps Research Institute. (2013). <i>Ricin</i> [Digital image]. Retrieved from https://pdb101.rcsb.org/motm/161<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> The Scripps Research Institute. (2013). <i>Ricin to the Rescue</i> [Digital image]. Retrieved from https://pdb101.rcsb.org/motm/161<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Tumer, N.E., & Li, X. (2012). <i>Interaction of Ricin and Shiga Toxins with Ribosomes.</i> Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103753/pdf/nihms601736.pdf<br />
+ </p> <p style="margin-left:.25in;text-indent:-.25in;font-family:"Times New Roman",Times,serif;font-size:12px;margin-bottom: 0;"> Youle, R.J., & Neville, D.M. (1982). Kinetics of Protein Synthesis Inactivation by Ricin-Anti-Thy 1.1 Monoclonal Antibody Hybrids. <i>The Journal of Biological Chemistry</i>, 257(4), 1598-1601. Retrieved from http://www.jbc.org/content/257/4/1598.full.pdf
+</p> 
+
+</div>
+</div>
+
+<div id="jmol">
+
+<div id="jmolTitle" class="title">
+ Jmol 
+</div>
+
+<div id="jmolApplet">
+<script language="JavaScript" type="text/javascript">
+
+ var Info = { 
+ addSelectionOptions: false, 
+ debug: false, 
+ j2sPath: "http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/jmol/j2s", 
+ readyFunction: null, 
+ script: "load http://www.pdb.org/pdb/files/2aai.pdb; background black; echo on; set echo bottom left; font echo 12 sanserif bold; color echo white; echo Ricin; cartoon only; color structure; spin on;", 
+ serverURL: "http://cbm.msoe.edu/markMyweb/jmolCreatorStonyBrook/jmol/php/jsmol.php", 
+ src: null, 
+ use: "HTML5", 
+ height:"100%", 
+ width:"100%" 
+ };	
+
+ Jmol.getApplet("myJmol", Info); 
+
+ </script></div>
+
+</div>
+
+</body>
+
+<!-- startVariables 
+
+currentStep="4"
+htmlString=""
+layoutOrientation="vertical"
+layoutHeader="true"
+layoutCBMLogo="true"
+layoutSchoolLogo="true"
+layoutTitle="true"
+layoutConsole="false"
+layoutContent="true"
+layoutContributors="true"
+
+color1="#00ff99"
+color1TextWhite="false"
+color2="#b7ebcc"
+color2TextWhite="false"
+color3="#ffffff"
+projectTitleValue="Ricin: Umbrella darts and curing cancer"
+schoolURLValue="https://66.media.tumblr.com/e305094b8ce865c25a581060eabe88a2/tumblr_ofvztbjImy1qgbi8io1_250.png"
+contributorsValue="Jacob Kurth and Tommy Gao"
+
+allObjects[0][0]="title"
+allObjects[0][1]="Purpose"
+allObjects[1][0]="paragraph"
+allObjects[1][1]="The purpose of this investigation is to visualize the structure of the ricin A chain in order to better understand the mechanism with which ricin affects eukaryotic cells. Additionally, this tutorial will demonstrate how to modify a jmol file showcasing the ricin A chain so it is ready to be 3-D printed."
+allObjects[2][0]="title"
+allObjects[2][1]="Background Information"
+allObjects[3][0]="subtitle"
+allObjects[3][1]="What is Ricin?"
+allObjects[4][0]="paragraph"
+allObjects[4][1]="Ricin is a type II ribosome inhibiting protein found in the seeds of the castor-oil plant (European Food Safety Authority, 2008). It is composed of 2 chains and attaches to the RNA in a eukaryotic cell to stop protein synthesis. This results in the death of cells and by result, the entire organism. The two chains are the A chain and the B chain. The B chain bonds to the cell membrane and injects the A chain, which is what bonds to the RNA to kill the cells (Goodsell, 2013). RNA was discovered in 1888 by the German scientist Peter Hermann Stillmark (Rogers 2013). Its ability to kill very quickly with a low dose makes it a very powerful biological weapon. Its most famous use occurred in 1978 London with the murder of Georgi Markov. More recently however, Ricin has been researched for its potential to fight cancer (Goodsell 2013). "
+allObjects[5][0]="image"
+allObjects[5][1]="https://cdn.rcsb.org/pdb101/motm/images/161-Ricin_2aai.jpg"
+allObjects[5][2]="Figure 1. Ricin structure modeled by PDB."
+allObjects[6][0]="video"
+allObjects[6][1]=""
+allObjects[6][2]="Figure 2. What is Ricin?"
+allObjects[7][0]="subtitle"
+allObjects[7][1]="Death by Umbrella Dart"
+allObjects[8][0]="paragraph"
+allObjects[8][1]="Ricin is a very potent toxin that can kill by inhalation, injection, and ingestion. This makes it one of the most dangerous substances in the world, and a commonly used weapon in assassination attempts (Rogers, 2013). As mentioned previously, ricin was used to kill a man named Georgi Markov in 1978. He was a Bulgarian writer who was being targeted by the Bulgarian secret police, with the assistance of the Soviet KGB. On the third assassination attempt he was stabbed with a dart from an umbrella, which injected a capsule of Ricin that was only 1.7 mm in diameter into his leg. He was admitted to a hospital that night after spending the day with severe leg pain, a high fever, abdominal pain, vomiting, and diarrhea. He eventually went into shock and died 4 days after he was initially injected (Stergioulas, 2008). The toxin's lethality allowed for the assassin to quickly inject the pellet and leave without causing a big scene. Ricin has also been placed in letters and sent to US presidents, but the letters have been intercepted and haven't done any harm (Seeker, 2013). "
+allObjects[9][0]="video"
+allObjects[9][1]=""
+allObjects[9][2]="Figure 3. Ricin Letters: What's So Dangerous?"
+allObjects[10][0]="subtitle"
+allObjects[10][1]="Ricin to Cure Cancer?"
+allObjects[11][0]="paragraph"
+allObjects[11][1]="Recently Ricin has been studied for good rather than the nefarious purposes of the past. A new 'immunotoxin' made with an antibody combined with ricin A chain has been designed to target cancer cells and kill them without affecting healthy cells (Goodsell 2013)."
+allObjects[12][0]="image"
+allObjects[12][1]="https://cdn.rcsb.org/pdb101/motm/images/161-Ricin_immunotoxin.jpg"
+allObjects[12][2]="Figure 4. Immunotoxin is created from the ricin A chain and antibodies that seek cancer cells and destroys them."
+allObjects[13][0]="subtitle"
+allObjects[13][1]="Strucutre"
+allObjects[14][0]="paragraph"
+allObjects[14][1]="Ricin itself has 2 chains, A and B. Ricin A chain consists of several alpha helices and beta pleated sheets (Goodsell 2013). The Tyrosine and Arginine are found in an indented section of the protein that allows it to surround the sarcin/ricin loop to remove an adenine from the loop and render the ribosome useless (Lord et al., 1994). It can then move on to another ribosome and repeat the process at a rate of 1500 ribosomes per minute until no ribosomes are left. The single bonding site between the A chain and the B chain at Cys 259 allows for the A chain and B chain to break apart relatively easily when the B chain bonds with the cell membrane (Goodsell, 2013)."
+allObjects[15][0]="image"
+allObjects[15][1]="https://68.media.tumblr.com/0a01fa7a64533d950e6b055a53a1ad6f/tumblr_onan9cnZmx1w8e7t7o1_1280.png"
+allObjects[15][2]="Figure 5. The cartoon structure is shown above of ricin. Alpha helices and a beta pleated sheet can be seen."
+allObjects[16][0]="image"
+allObjects[16][1]="https://68.media.tumblr.com/3de5c1cc4cbbbd4578f05ba85362c6ba/tumblr_onan9cnZmx1w8e7t7o5_1280.png"
+allObjects[16][2]="Figure 6. The wireframe structure of ricin is shown above. The green amino acid is where the A chain bonds to the B chain."
+allObjects[17][0]="subtitle"
+allObjects[17][1]="Gene Sequence"
+allObjects[18][0]="paragraph"
+allObjects[18][1]="The amino acid sequence of ricin A chain from The National Center for Biotechnology Information is shown in Figure 7 below. The ricin A chain is then put through blast and it is nearly identical to other varients of ricin (Figure 8)."
+allObjects[19][0]="image"
+allObjects[19][1]="https://68.media.tumblr.com/9bbc65b2e63f1e3d5b4e47d943e4218e/tumblr_onan9cnZmx1w8e7t7o4_1280.png"
+allObjects[19][2]="Figure 7. The ricin (2aai) A chain amino acid sequence is obtained from NCBI."
+allObjects[20][0]="image"
+allObjects[20][1]="https://68.media.tumblr.com/3b1e4c8b0dfadc8c295b8cff29687c31/tumblr_onan9cnZmx1w8e7t7o2_1280.png"
+allObjects[20][2]="Figure 8. The blast results for Chain A, Rrna N-glycosylase Rta from the NCBI BLAST."
+allObjects[21][0]="paragraph"
+allObjects[21][1]="The chain sequence of ricin A chain can be compared to many other ribosome inactivating proteins (RIPs). Although RIPs are very different from ricin in gene sequence, there are some important sites that scientists believe are essential for ribosome inactivation. Although not much is known about how it works, these highlighted amino acids are believed to be important because all the RIPs have the same effect with these same amino acids in their same positions (Tumer & Li, 2012). "
+allObjects[22][0]="image"
+allObjects[22][1]="https://68.media.tumblr.com/e5406f3ecedf394642bb85e84bf728f5/tumblr_onan9cnZmx1w8e7t7o3_1280.png"
+allObjects[22][2]="Figure 9. The results of the conserved domains between ricin A chain (top line) and the other ribosome inactivating proteins in the RIPs superfamily show the close similarity of the amino acids necessary for cleavage of the sarcin ricin loop on proteins."
+allObjects[23][0]="image"
+allObjects[23][1]="https://68.media.tumblr.com/d4dc62a0084c9b230d8f14e6bc7743b0/tumblr_onan9cnZmx1w8e7t7o6_1280.png"
+allObjects[23][2]="Figure 10. The amino acids of ricin compared to many RIPs. There are a few important amino acids that are necessary for ribosome inactivation."
+allObjects[24][0]="paragraph"
+allObjects[24][1]="The sarcin ricin loop (shown below in Figure DFA) is shown that ricin and other ribosome inactivating protein hhydrolytically cleaves an adenine from the 28S rRNA on the ribosomes (Tumer & Li, 2012). This will cause the ribosome to stop producing proteins, eventually leading to cell failiure."
+allObjects[25][0]="image"
+allObjects[25][1]="https://68.media.tumblr.com/ae16a8a9136cba12b166710c9f0831e1/tumblr_onaob8UsYz1w8e7t7o1_400.jpg"
+allObjects[25][2]="Figure 11. The hydrolytic of the 28S rRNA is shown above. This disables ribosomes from producing proteins."
+allObjects[26][0]="title"
+allObjects[26][1]="Printing Proposal"
+allObjects[27][0]="jmol"
+allObjects[27][1]="2aai"
+allObjects[27][2]="Ricin A Chain 3D Printing Model"
+allObjects[27][3]="background black;;backbone only;;backbone 1.0;;color chain;;restrict chain=a;;calculate strut;;select atomno=1813 or atomno=1689;;connect strut;;select atomno=1721 or atomno=1784;;connect strut delete;;select atomno=793 or atomno=744;;connect strut delete;;select atomno=1398 or atomno=1451;;connect strut delete;;select atomno=135 or atomno=1489;;connect strut delete;;select atomno=1932 or atomno=1779;;connect strut delete;;select atomno=1204 or atomno=1249;;connect strut delete;;select atomno=1050 or atomno=1007;;connect strut delete;;select atomno=988 or atomno=941;;connect strut delete;;select atomno=1726 or atomno=1940;;connect strut delete;;select atomno=1192 or atomno=535;;connect strut delete;;select atomno=350 or atomno=260;;connect strut delete;;select atomno=543 or atomno=497;;connect strut delete;;select atomno=1689 or atomno=1813;;connect strut delete;;select all;;struts 0.75;;select 259;;color green;;select 123;;color blue;;select 80;;color blue;;select 180;;color red;"
+allObjects[28][0]="paragraph"
+allObjects[28][1]="The 3-D model showcases the structure of the ricin A chain to illustrate how the Ricin A chain could possibly function. The red area shows the <span style='color:#e24848'>ARG 180</span> where the ricin A chain cleaves off the adenine from 28S rRNA in  a hydrolytic fashion. The blue shows the <span style='color:#5754db'>TYR 80</span>  and <span style='color:#5754db'>TYR 123</span> which help attach the ricin A chain onto the ribosome. The green shows the <span style='color:#43c34f'>CYS 259</span> which is the place where the ricin A chain connects to the ricin B chain. Figure 12 is a physical model that was built based on the 3-D model and gives a sense of what the printed 3-D model will be like."
+allObjects[29][0]="image"
+allObjects[29][1]="https://68.media.tumblr.com/c620b79eb4591975633c0c3dc8fda1a2/tumblr_on52j5V5G81w8e7t7o1_1280.jpg"
+allObjects[29][2]="Figure 12. This is our physical model created before the molecule was printed."
+allObjects[30][0]="image"
+allObjects[30][1]="https://68.media.tumblr.com/fad594c4f1fcebaa6f49e90e3b857f95/tumblr_onaep7DIKe1w8e7t7o1_1280.jpg"
+allObjects[30][2]="Figure 13. The 3D printed ricin A chain model compared to the self created model, side by side."
+allObjects[31][0]="title"
+allObjects[31][1]="Printing Instructions"
+allObjects[32][0]="paragraph"
+allObjects[32][1]="To build the 3-D model, two chains will need to be printed and then glued together. Ricin is a large molecule to print so only the A chain will be printed here. To get a jmol file of the A chain ready for printing, complete the following steps:<br />1. Click on File -> Console which should open a window where commands can be typed.<br />2. 2. Type ''<span style='color:#e24848'>load=2aai</span>'' into the console window and press enter, which will open the ricin file into jmol, displaying only the backbone.<br />3. Enter ''<span style='color:#e24848'>backbone only</span>'' which will only display the backbone without side chains on it.<br />4. Enter ''<span style='color:#e24848'>backbone 1.0</span>'' which will set the backbone to a reasonable size.<br />5. Enter ''<span style='color:#e24848'>restrict chain=a</span>'' which will limit the model to only include the a chain."
+allObjects[33][0]="image"
+allObjects[33][1]="https://68.media.tumblr.com/01a8b931af23bfd4480230ffe15eae46/tumblr_onafddSu4Z1w8e7t7o1_1280.png"
+allObjects[33][2]="Figure 14. This is how the application should look after the previous steps."
+allObjects[34][0]="paragraph"
+allObjects[34][1]="6. Enter ''<span style='color:#e24848'>color structure</span>'' which will show the alpha helices and the beta pleated sheet.<br />7. Enter ''<span style='color:#e24848'>calculate strut</span>'' to automatically create struts."
+allObjects[35][0]="image"
+allObjects[35][1]="https://68.media.tumblr.com/c51872974aee6e946534807187064e84/tumblr_onafiisgEu1w8e7t7o1_1280.png"
+allObjects[35][2]="Figure 15. This is how the application should look after adding colors and preset struts."
+allObjects[36][0]="paragraph"
+allObjects[36][1]="There are a lot of struts that do not need to be there so we will add one strut then remove a lot more.<br />8. Enter the following:"
+allObjects[37][0]="paragraph"
+allObjects[37][1]="''<span style='color:#e24848'>select atomno=1813 or atomno=1689</span>''<br />''<span style='color:#e24848'>connect strut</span>''<br />''<span style='color:#e24848'>select atomno=1721 or atomno=1784</span>''<br />''<span style='color:#e24848'>connect strut delete</span>''<br />''<span style='color:#e24848'>select atomno=793 or atomno=744</span>''<br />''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1398 or atomno=1451</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=135 or atomno=1489</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1932 or atomno=1779</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1204 or atomno=1249</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1050 or atomno=1007</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=988 or atomno=941</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1726 or atomno=1940</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1192 or atomno=535</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=350 or atomno=260</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=543 or atomno=497</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+''<span style='color:#e24848'>select atomno=1689 or atomno=1813</span>''
+''<span style='color:#e24848'>connect strut delete</span>''
+"
+allObjects[38][0]="image"
+allObjects[38][1]="https://68.media.tumblr.com/4f5a2e95106a4c6592230501bd7ec161/tumblr_onag04O2xy1w8e7t7o1_1280.png"
+allObjects[38][2]="Figure 16. This is how the application should look after adding additional struts."
+allObjects[39][0]="paragraph"
+allObjects[39][1]="9. Enter ''<span style='color:#e24848'>select all</span>'' to select all the struts.<br />10. Enter ''<span style='color:#e24848'>struts 0.75</span>'' to make the struts larger for easier printing. Originally when creating the model, the struts were thinner but was changed to 0.75 because the smaller struts did not show up on MeshMixer. <br />11. Enter ''<span style='color:#e24848'>select 259</span>'' to make select the CYS 259.<br />12. Enter ''<span style='color:#e24848'>color green</span>'' to change it to green so it is marked for identification.<br />13. Enter ''<span style='color:#e24848'>select 123</span>'' to make select the TYR 123.<br />14. Enter ''<span style='color:#e24848'>color blue</span>''  to change it to blue so it is marked for identification.
+15. Enter ''<span style='color:#e24848'>select 80</span>'' to make select the TYR 80.
+16. Enter ''<span style='color:#e24848'>color blue</span>'' to change it to blue so it is marked for identification.
+17. Enter ''select 180'' to make select the ARG 180.
+18. Enter ''<span style='color:#e24848'>color red</span>'' to change it to red so it is marked for identification."
+allObjects[40][0]="image"
+allObjects[40][1]="https://68.media.tumblr.com/b90d1f83c4407db06bf75ad81f736a21/tumblr_onagtwsEQO1w8e7t7o1_1280.png"
+allObjects[40][2]="Figure 17. This is how the model should look after all the commands have been entered correctly."
+allObjects[41][0]="paragraph"
+allObjects[41][1]="15. The model now needs to be exported as a .stl file. Right click on the model and click on File -> Export -> Export STL 3D Model which should open up a window to save the .stl file in a chosen location on the computer.<br />"
+allObjects[42][0]="image"
+allObjects[42][1]="https://68.media.tumblr.com/39f4a0aeb3496cc94e98cd9935e67fbd/tumblr_onagxjiaB71w8e7t7o1_1280.png"
+allObjects[42][2]="Figure 18. This shows how to access the option to export the file as a .stl."
+allObjects[43][0]="paragraph"
+allObjects[43][1]="16. The .stl file must then be modified in Meshmixer. In Meshmixer, click Import and select the .stl file to open it in the program.<br />17. Click Edit -> Make Solid -> Accept. Make Solid will fill the internal space in the mesh to make it printable instead of just the  mesh shell.<br />18. Click File -> Export and then save the file in the STL ASCII Format. This final file is ready to be sent to the 3D printer."
+allObjects[44][0]="image"
+allObjects[44][1]="https://68.media.tumblr.com/3b74ac869aae0f919c21ef45b076e6fb/tumblr_onaep7DIKe1w8e7t7o4_1280.jpg"
+allObjects[44][2]="Figure 19. The final printed and painted model of the ricin A chain."
+allObjects[45][0]="title"
+allObjects[45][1]="References"
+allObjects[46][0]="paragraph"
+allObjects[46][1]="Bertilsson, Daniel. (2014). <i>What is Ricin?</i> Retrieved from https://www.youtube.com/watch?v=z6PbHVnX_00<br />Endo, Y., & Tsurugi, K. (1987). RNA N-Glycosidase Activity of Ricin A-chain. <i>The Journal of Biological Chemistry</i>, 262(17), 8128-8130. Retrieved from http://www.jbc.org/content/262/17/8128.full.pdf<br />European Food Safety Authority. (2008). <i>Ricin (from Ricinus communis) as undesirable substances in animal feed.</i> Retrieved from http://onlinelibrary.wiley.com/doi/10.2903/j.efsa.2008.726/epdf<br />Faculdade de Farm⤩a Universidade do Porto. (2009). <i>RICINA </i>[Digital image]. Retrieved from http://www.nawebti.net/ricina/index2.php?pag=bibliografia<br />Goodsell D.S. (2013). <i>Ricin.</i> Retrieved from https://pdb101.rcsb.org/motm/161<br />Lord, J.M., Roberts, L.M., & Robertus, J.D. (1994). Ricin: Structure, mode of action, and some current applications. <i>The FASEB Journal</i>. Retrieved from https://www.researchgate.net/profile/Jon_Robertus/publication/15078743_Ricin_Structure_mode_of_action_and_some_current_applications/links/00b7d516812fe61361000000.pdf
+Protein Data Bank. (1993). [Ricin in .pdb]. <i>2AAI Crystallographic refinement of ricin to 2.5 Angstroms. </i>Retrieved from http://www.rcsb.org/pdb/explore.do?structureId=2AAI
+Rogers, K. (2013). Ricin. In <i>Encyclop祩a Britannica. </i>Retrieved from https://www.britannica.com/science/ricin
+Seeker. (2013). <i>Ricin Letters: What's So Dangerous?</i> Retrieved from https://www.youtube.com/watch?v=m5IMuNKeSn8
+Stergioulas, A. (2008). Ricin and the Assassination of Georgi Markov. <i>Pakistan Journal of Biological Sciences</i>, 11(19), 2370-2371. Retrieved from http://www.scialert.net/qredirect.php?doi=pjbs.2008.2370.2371&linkid=pdf
+The Scripps Research Institute. (2013). <i>Ricin</i> [Digital image]. Retrieved from https://pdb101.rcsb.org/motm/161
+The Scripps Research Institute. (2013). <i>Ricin to the Rescue</i> [Digital image]. Retrieved from https://pdb101.rcsb.org/motm/161
+Tumer, N.E., & Li, X. (2012). <i>Interaction of Ricin and Shiga Toxins with Ribosomes.</i> Retrieved from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4103753/pdf/nihms601736.pdf
+Youle, R.J., & Neville, D.M. (1982). Kinetics of Protein Synthesis Inactivation by Ricin-Anti-Thy 1.1 Monoclonal Antibody Hybrids. <i>The Journal of Biological Chemistry</i>, 257(4), 1598-1601. Retrieved from http://www.jbc.org/content/257/4/1598.full.pdf
+"
+allObjects[47][0]="ending"
+
+
+ endVariables --> 
+ 
+ </html>
