@@ -26,6 +26,7 @@ Todo:
 - project for website in frame so it recurses
 - drawer opens sorta like google images
 - create responsiveness for 40.5 em to 1344 px and under 40.5 em
+- maybe add http://tommygao.com/nachoaveragericinus/
 
 Sites I like:
 - http://annaellenberger.com/
