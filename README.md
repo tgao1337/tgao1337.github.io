@@ -25,6 +25,7 @@ Todo:
 - try implementing and/or updating css elements
 - project for website in frame so it recurses
 - drawer opens sorta like google images
+- create responsiveness for 40.5 em to 1344 px and under 40.5 em
 
 Sites I like:
 - http://annaellenberger.com/
