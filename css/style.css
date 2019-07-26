@@ -299,7 +299,8 @@ li {
   to   { transform: translate3d(0, 8px, 0); }
 }
 
-@media screen and (min-width: 28.75em) {
+/*@media screen and (min-width: 28.75em) {*/
+@media screen and (min-width: 1344px) {
   .section {
     display: flex;
     flex-direction: row;
@@ -430,7 +431,7 @@ li {
 
   #tg {
     background-color: blue;
-    width: 70%;
+    width: 1344px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -680,6 +681,7 @@ li {
   .ch-item:hover .ch-info p {
   	opacity: 1;
   }
+
 
 
 }
