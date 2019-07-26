@@ -20,7 +20,7 @@ Google analytics found:
 but cannot figure out where the problem is.
 
 Todo:
-- remove aos
+- remove aos (maybe readd aos?)
 - remove instagram
 - try implementing and/or updating css elements
 - project for website in frame so it recurses
