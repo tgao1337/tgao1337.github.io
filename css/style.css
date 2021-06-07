@@ -144,7 +144,7 @@ li {
 }
 
 .gridcontainer {
-  width: 90vw;
+  width: 10vw;
   display: grid;
   grid-gap: 1vh;
   margin-top: 4vh;
@@ -430,7 +430,7 @@ li {
   }
 
   #tg {
-    background-color: blue;
+    /* background-color: blue; */
     width: 1344px;
     margin-left: auto;
     margin-right: auto;
@@ -593,7 +593,7 @@ li {
   	box-shadow:
   		inset 0 0 0 16px rgba(15,75,255,0.6),
   		0 1px 2px rgba(0,0,0,0.1);
-  	transition: all 0.4s ease-in-out;
+  	transition: all 0.2s ease-in-out;
   }
 
   .ch-img-1 {
@@ -611,6 +611,26 @@ li {
     background-size: 100%;
   }
 
+  .ch-img-4 {
+  	background-image: url(../img/arlsql.png);
+    background-size: 100%;
+  }
+
+  .ch-img-5 {
+  	background-image: url(../img/nyuhsqr.png);
+    background-size: 100%;
+  }
+
+  .ch-img-6 {
+  	background-image: url(../img/acisqr.png);
+    background-size: 100%;
+  }
+
+  .ch-img-7 {
+  	background-image: url(../img/ngsqr.png);
+    background-size: 100%;
+  }
+
 
 
   .ch-info {
@@ -621,7 +641,7 @@ li {
   	border-radius: 50%;
   	overflow: hidden;
   	opacity: 0;
-  	transition: all 0.4s ease-in-out;
+  	transition: all 0.1s ease-in-out;
   	transform: scale(0);
   }
 
@@ -647,7 +667,7 @@ li {
   	font-size: 24px;
   	border-top: 1px solid rgba(255,255,255,0.5);
   	opacity: 0;
-  	transition: all 1s ease-in-out 0.4s;
+  	transition: all 1s ease-in-out 0.1s;
   }
 
 
@@ -690,16 +710,12 @@ li {
 
 /* @media screen and (min-width: 40.5em) {
   .left {
-
   }
   .right {
-
   }
   .left img {
-
   }
   .right img {
-
   }
 } */
 
