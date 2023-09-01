@@ -595,6 +595,11 @@ p {
   transition: all 0.2s ease-in-out;
 }
 
+.ch-img-0 {
+  background-image: url(../img/whitingsquare.png);
+  background-size: 100%;
+}
+
 .ch-img-1 {
   background-image: url(../img/nyusquare.png);
   background-size: 100%;
